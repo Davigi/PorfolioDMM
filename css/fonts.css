@@ -1,0 +1,12 @@
+/* Fonts */
+@font-face {
+    font-family: Neue Hass Grotesk Text Pro Medium;
+    font-weight: 200;
+    src: url("../fonts/NHaasGroteskTXPro-65Md.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: Neue Hass Grotesk Display Pro Medium;
+    font-weight: 400;
+    src: url("../fonts/NHaasGroteskDSPro-55Rg.ttf") format("opentype");
+}
