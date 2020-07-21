@@ -47,7 +47,7 @@ table {
 
 body{
 	font-family: Favorit;
-	background: black;
+	background: green;
 }
 
 a.inproject{
@@ -70,41 +70,35 @@ a.inabout{
 
  }
 
-.bblock{
-	float: left;
- 	width: 99%;
-	height: 23.5em;
-	padding-left: 2%;
-	padding-right: 2%;
-	padding-top: 2%;
-	background-color: black;
-	/*position: fixed;*/
-}
+
+
+
+ .pcontent{
+ 	display: flex;
+ 	flex-direction: column;
+ 	margin: 0 auto;
+ }
+
 
  .projectlists{
  	float: left;
- 	width: 99%;
-	height: 23.5em;
+	height: auto;
+	padding-bottom: 2%;
+	width: auto;
 	padding-left: 2%;
 	padding-right: 2%;
 	padding-top: 2%;
 	background-color: black;
-	position: fixed;
- }
-
- .pcontent{
- 	width: 99%;
-	height: 23.5em;
-	padding-left: 2%;
-	padding-right: 2%;
-	background-color: black;
+	position: -webkit-sticky; /* Safari */
+  	position: sticky;
+  	top: 0;
  }
 
  .pj1{
  	width: 100%;
  }
 
-
+/*ARREGLAR*/
 .container {
   position: relative;
   overflow: hidden;
@@ -126,45 +120,41 @@ a.inabout{
 
 
 
-@media only screen and (min-width: 700px) {
+@media (min-width: 700px) and (orientation: landscape) {
   /* For desktop: */
- 	#wrapper{
- 	width: 100%
- 	}
-
-	.bblock{
-	display: none;
-}
-
-	header{
-	float: right;
-	width: 40%;
-	height: 100%;
-	background-color: black;
-	}
-	
-	.projectlists{
- 	max-width: 35%;
-/*	padding-left: 2%;
-	padding-right: 2%;
-	padding-top: 2%;*/
- }
-
-	h1 {
+h1 {
 	font-family: Neue Hass Grotesk Display Pro Medium;
 	font-weight: 400;
-	font-size: 3em;
+	font-size: 7vh;
 	line-height: 99%;
 	color: #FFFFFF;
 
- 	}
-	.pcontent{
-	float: left;
-	width: 55%;
-	height: 100%;
+ }
+
+ .pcontent{
+ 	display: flex;
+ 	flex-direction: row-reverse;
+ 	margin: 0 auto;
+ }
+
+ .projectlists{
+ 	float: right;
+	height: 100vh;
+	padding-bottom: 2%;
+	width: 40vw;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 2%;
+	background-color: black;
+ }
+
+.imgscontainer{
+	width: 60vw;
 	background-color: black;
 
-		;
-	 }
+}
+  .pj1{
+ 	width: 100%;
+ }
 
 }
