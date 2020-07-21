@@ -120,7 +120,7 @@ a.inabout{
 
 
 
-@media (min-width: 700px) and (orientation: landscape) {
+@media (min-width: 1080px) and (orientation: landscape) {
   /* For desktop: */
 h1 {
 	font-family: Neue Hass Grotesk Display Pro Medium;
