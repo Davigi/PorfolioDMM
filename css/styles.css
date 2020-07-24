@@ -114,6 +114,15 @@ a.inabout{
  	width: 100%;
  }
 
+.pj2{
+ 	width: 45%;
+ }
+
+.twowindows{
+	display: flex;
+	justify-content: space-evenly;
+}
+
 
 .responsive-iframe {
   position: absolute;
