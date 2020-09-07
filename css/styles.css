@@ -207,10 +207,15 @@ h1 {
 	 margin: 0 auto;
 	font-family: 'Inter', sans-serif;
 }
+header{
+	max-width: 45vw;
+	height: 100vh;
+}
  .pcontent{
  	display: flex;
  	flex-direction: row-reverse;
- 	margin: 0 auto;
+	 margin: 0 auto;
+	 max-width: 55vw;
  }
  .protext{	
 	max-width: 100%;
